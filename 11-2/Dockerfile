@@ -19,6 +19,7 @@ RUN buildDependencies="build-essential \
     postgresql-server-dev-$PG_MAJOR" \
     runtimeDependencies="libc++1" \
   && apt-get update \
+  && apt-get install --no-install-recommends -y postgresql-${PG_MAJOR}-ip4r \
   && apt-get install -y --no-install-recommends ${buildDependencies} ${runtimeDependencies} \
   && mkdir -p /tmp/build \
   && curl -o /tmp/build/v$PLV8_VERSION.tar.gz -SL "https://github.com/plv8/plv8/archive/v${PLV8_VERSION}.tar.gz" \
