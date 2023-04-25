@@ -6,7 +6,8 @@ Docker images for running [plv8](https://github.com/plv8/plv8) 1.4, 1.5 and 2.x 
 
 ## Tags
 
-- `12-2`, `latest` ([12-2/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/12-2/Dockerfile))
+- '15', 'latest' ([15/Dockerfile](https://github.com/Neio/docker-postgres-plv8-ip4r/blob/master/15/Dockerfile)
+- `12-2` ([12-2/Dockerfile](https://github.com/Neio/docker-postgres-plv8-ip4r/blob/master/12-2/Dockerfile))
 - `11-2` ([11-2/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/11-2/Dockerfile))
 - `10-2` ([10-2/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/10-2/Dockerfile))
 - `9.6-2`, ([9.6-2/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/9.6-2/Dockerfile))
@@ -26,7 +27,7 @@ Docker images for running [plv8](https://github.com/plv8/plv8) 1.4, 1.5 and 2.x 
 This image behaves exactly like the official Postgres image with the only difference being the inclusion of the plv8 extension.
 
 ```sh
-$ docker run -d --name postgres clkao/postgres-plv8
+$ docker run -d --name postgres neio/postgresql_plv8_ip4r
 $ docker exec -it postgres bash -c "psql -U postgres -c \"CREATE EXTENSION plv8; SELECT extversion FROM pg_extension WHERE extname = 'plv8';\""
 ```
 
@@ -36,14 +37,14 @@ You can optionally create a service using `docker-compose`:
 
 ```yml
 postgres:
-  image: clkao/postgres-plv8
+  image: neio/postgresql_plv8_ip4r
 ```
 
 ## Image variants
 
-The `clkao/postgres-plv8` image comes in multiple flavors:
+The `neio/postgresql_plv8_ip4r` image comes in multiple flavors:
 
-### `clkao/postgres-plv8:latest`
+### `neio/postgresql_plv8_ip4r:latest`
 
 Points to the latest release available of Postgres stable with compatible plv8 installed. Occasionally pre-release versions will be included.
 
