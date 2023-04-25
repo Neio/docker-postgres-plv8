@@ -1,6 +1,7 @@
 FROM postgres:12
 
 MAINTAINER Chia-liang Kao <clkao@clkao.org>
+MAINTAINER Neio Zhou <neio.zhou@gmail.com>
 
 ENV PLV8_VERSION=2.3.13 \
     PLV8_SHASUM="1a96c559d98ad757e7494bf7301f0e6b0dd2eec6066ad76ed36cc13fec4f2390"
