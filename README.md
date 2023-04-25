@@ -1,6 +1,6 @@
 # postgres-plv8
 
-Docker images for running [plv8](https://github.com/plv8/plv8) 1.4, 1.5 and 2.x on Postgres 9.4, 9.5, 9.6, 10, 11 and 12. Based on the [official Postgres image](http://registry.hub.docker.com/_/postgres/).
+Docker images for running [plv8](https://github.com/plv8/plv8) 1.4, 1.5 and 2.x on Postgres 9.4, 9.5, 9.6, 10, 11, 12 and 15. Based on the [official Postgres image](http://registry.hub.docker.com/_/postgres/).
 
 [![clkao/postgres-plv8][docker-pulls-image]][docker-hub-url] [![clkao/postgres-plv8][docker-stars-image]][docker-hub-url] [![clkao/postgres-plv8][docker-size-image]][docker-hub-url] [![clkao/postgres-plv8][docker-layers-image]][docker-hub-url]
 
@@ -17,6 +17,7 @@ Docker images for running [plv8](https://github.com/plv8/plv8) 1.4, 1.5 and 2.x 
 - `9.4-2` ([9.4-1.5/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/9.4-2/Dockerfile))
 - `9.4-1.5` ([9.4-1.5/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/9.4-1.5/Dockerfile))
 - `9.4-1.4` ([9.4-1.4/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/9.4-1.4/Dockerfile))
+
 
 ## Usage
 
