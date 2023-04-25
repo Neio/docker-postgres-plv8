@@ -2,7 +2,7 @@
 
 Docker images for running [plv8](https://github.com/plv8/plv8) 1.4, 1.5 and 2.x on Postgres 9.4, 9.5, 9.6, 10, 11, 12 and 15. Based on the [official Postgres image](http://registry.hub.docker.com/_/postgres/).
 
-[![clkao/postgres-plv8][docker-pulls-image]][docker-hub-url] [![clkao/postgres-plv8][docker-stars-image]][docker-hub-url] [![clkao/postgres-plv8][docker-size-image]][docker-hub-url] [![clkao/postgres-plv8][docker-layers-image]][docker-hub-url]
+[![neio/postgresql_plv8_ip4r][docker-pulls-image]][docker-hub-url] [![neio/postgresql_plv8_ip4r][docker-stars-image]][docker-hub-url] [![neio/postgresql_plv8_ip4r][docker-size-image]][docker-hub-url] [![neio/postgresql_plv8_ip4r][docker-layers-image]][docker-hub-url]
 
 ## Tags
 
@@ -48,7 +48,7 @@ The `neio/postgresql_plv8_ip4r` image comes in multiple flavors:
 
 Points to the latest release available of Postgres stable with compatible plv8 installed. Occasionally pre-release versions will be included.
 
-### `clkao/postgres-plv8:<majorPostgresVersion>-<plv8Version>`
+### `neio/postgresql_plv8_ip4r:<majorPostgresVersion>`
 
 Points to the latest release available of Postgres `<majorPostgresVersion>` with the latest release available of plv8 `<plv8Version>` installed.
 
@@ -60,8 +60,8 @@ This image is officially supported on Docker version 19.03, with support for old
 
 MIT
 
-[docker-hub-url]: https://hub.docker.com/r/clkao/postgres-plv8/
-[docker-pulls-image]: https://img.shields.io/docker/pulls/clkao/postgres-plv8.svg?style=flat-square
-[docker-stars-image]: https://img.shields.io/docker/stars/clkao/postgres-plv8.svg?style=flat-square
-[docker-layers-image]: https://img.shields.io/microbadger/layers/clkao/postgres-plv8.svg?style=flat-square
-[docker-size-image]: https://img.shields.io/microbadger/image-size/clkao/postgres-plv8.svg?style=flat-square
+[docker-hub-url]: https://hub.docker.com/r/neio/postgresql_plv8_ip4r
+[docker-pulls-image]: https://img.shields.io/docker/pulls/neio/postgresql_plv8_ip4r.svg?style=flat-square
+[docker-stars-image]: https://img.shields.io/docker/stars/neio/postgresql_plv8_ip4r.svg?style=flat-square
+[docker-layers-image]: https://img.shields.io/microbadger/layers/neio/postgresql_plv8_ip4r.svg?style=flat-square
+[docker-size-image]: https://img.shields.io/microbadger/image-size/neio/postgresql_plv8_ip4r.svg?style=flat-square
