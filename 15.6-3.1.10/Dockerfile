@@ -1,6 +1,6 @@
 FROM postgres:15.6
 
-MAINTAINER Neio Zhou <neio.zhou@gmail.com>
+LABEL org.opencontainers.image.authors="Neio Zhou <neio.zhou@gmail.com>"
 
 ENV PLV8_VERSION=3.1.10 \
     PG_MAJOR=15
