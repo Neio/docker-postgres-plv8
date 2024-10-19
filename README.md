@@ -4,20 +4,7 @@ Docker images for running [plv8](https://github.com/plv8/plv8) 1.4, 1.5 and 2.x 
 
 [![neio/postgresql_plv8_ip4r][docker-pulls-image]][docker-hub-url] [![neio/postgresql_plv8_ip4r][docker-stars-image]][docker-hub-url] [![neio/postgresql_plv8_ip4r][docker-size-image]][docker-hub-url] [![neio/postgresql_plv8_ip4r][docker-layers-image]][docker-hub-url]
 
-## Tags
 
-- '15', 'latest' ([15/Dockerfile](https://github.com/Neio/docker-postgres-plv8-ip4r/blob/master/15/Dockerfile)
-- `12-2` ([12-2/Dockerfile](https://github.com/Neio/docker-postgres-plv8-ip4r/blob/master/12-2/Dockerfile))
-- `11-2` ([11-2/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/11-2/Dockerfile))
-- `10-2` ([10-2/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/10-2/Dockerfile))
-- `9.6-2`, ([9.6-2/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/9.6-2/Dockerfile))
-- `9.6-1.4` ([9.6-1.4/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/9.6-1.4/Dockerfile))
-- `9.5-2` ([9.5-1.5/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/9.5-2/Dockerfile))
-- `9.5-1.5` ([9.5-1.5/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/9.5-1.5/Dockerfile))
-- `9.5-1.4` ([9.5-1.4/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/9.5-1.4/Dockerfile))
-- `9.4-2` ([9.4-1.5/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/9.4-2/Dockerfile))
-- `9.4-1.5` ([9.4-1.5/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/9.4-1.5/Dockerfile))
-- `9.4-1.4` ([9.4-1.4/Dockerfile](https://github.com/clkao/docker-postgres-plv8/blob/master/9.4-1.4/Dockerfile))
 
 
 ## Usage
